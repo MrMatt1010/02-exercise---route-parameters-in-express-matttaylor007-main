@@ -1,0 +1,56 @@
+.property {
+  margin-bottom: 3rem;
+  box-shadow: 2px 2px 15px #ccc;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.property-text-container {
+  padding: 1rem 2rem;
+}
+
+.property-title {
+  font-size: 1.3rem;
+  margin: 0;
+  text-align: left;
+}
+
+.property-address {
+  margin: 0 0 1rem;
+}
+
+.property-price {
+  font-weight: bold;
+  color: #666;
+}
+
+.property-description {
+  color: #666;
+}
+
+.property-btn {
+  background: #6246ea;
+  border-radius: 0.5rem;
+  display: inline-block;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0 0 1rem;
+  text-decoration: none;
+}
+
+.property-btn:active,
+.property-btn:hover {
+  text-decoration: underline;
+}
+
+.property-contact-link {
+  color: #6246ea;
+  margin-bottom: 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+.property-contact-link:active,
+.property-contact-link:hover {
+  text-decoration: underline;
+}

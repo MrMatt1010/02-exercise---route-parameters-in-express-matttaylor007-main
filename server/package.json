@@ -1,0 +1,42 @@
+{
+  "name": "02-ex-my-first-api-endpoint-in-express",
+  "author": "Developers Institute",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier:check": "prettier --check '**/*.js'",
+    "start": "nodemon src/server.js",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.1.0",
+    "prettier": "^2.3.2",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "./src/app.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
+    }
+  }
+}
